@@ -48,4 +48,14 @@ fun main() {
 
         }
         }
+    //-----------------------------------------------------------------------------------------
+    val rangeei = 1..5
+    for (i in rangeei) {
+        if (i % 2 == 1) {
+            print("#")
+        } else {
+            print("-")
+        }
+        }
+    //kalau ada sisa pembagian maka == 1
 }
